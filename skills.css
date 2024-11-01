@@ -41,3 +41,57 @@ nav a{
 nav a:hover {
     text-decoration: underline;
 }
+section {
+display:flex;
+flex-direction: row;
+gap: 5rem;
+}
+section div img{
+    height: 20px;
+    width: 20px;
+    align-items: center;
+}
+section div {
+    border: 1px solid #0d0132;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+    width:20rem;
+}
+section div:hover{
+    box-shadow: 5px 5px 18px 10px #0c0154 ;
+}
+section div img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 10rem;
+    width: 10rem;
+    border-radius: 50%;
+    background-color: #fff;
+}
+section div p {
+    font-size: 14px;
+    font-weight: bold;
+    color: #fff;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+h4{
+    font-family: "Tiny5", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 40px;
+    color: #fff;    
+    text-decoration: none;
+    text-align: center;
+}
+section div p{
+    font-family: "Itim", cursive;
+    font-weight: 400;
+    font-style: normal;
+    text-align: justify;
+}
