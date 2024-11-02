@@ -71,6 +71,7 @@ footer{
     font-style: normal;
     text-align: center;
     padding: 20px;
+    position: fixed;
     background-color:transparent;
     left: 0;
     bottom: 0;
