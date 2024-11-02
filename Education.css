@@ -47,7 +47,6 @@ flex-direction: column;
 gap: 3rem;
 }
 .school,.pu,.OQ {
-    border: 1px solid #fff;
     padding: 20px;
     margin: 20px;
     border-radius: 10px;
@@ -59,7 +58,6 @@ div img {
     height: 20rem;
     width: 20rem;
     border-radius: 50%;
-    background-color: #fff;
     transition: 0.5s ease;
 }
 h2{
@@ -78,6 +76,8 @@ h1{
     color: #fff;    
     text-align: center;
 } 
+.logo:hover{cursor:alias;}
+
 .school,.pu{
     display: flex;
     flex-direction: row-reverse;
@@ -100,4 +100,27 @@ h1{
 img:hover{
     transform: scale(1.1);
     cursor: none;
+}
+#mid{
+    width: 33.3%;
+    margin-left: 30%;
+    height: 5px;
+    border-radius: 10px;
+    background-color: #fff;
+}
+hr{
+    background-color: #fff;
+    height: 5px;
+}
+footer{
+    color: #fff;
+    font-family: "Itim", cursive;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    padding: 20px;
+    background-color:transparent;
+    left: 0;
+    bottom: 0;
+    width: 100%;
 }

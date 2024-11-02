@@ -81,6 +81,8 @@ section div p {
     flex-direction: column;
     align-items: center;
 }
+.logo:hover{cursor:alias;}
+
 h4{
     font-family: "Tiny5", sans-serif;
     font-weight: 400;
@@ -95,4 +97,16 @@ section div p{
     font-weight: 400;
     font-style: normal;
     text-align: justify;
+}
+footer{
+    color: #fff;
+    font-family: "Itim", cursive;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    padding: 20px;
+    background-color:transparent;
+    left: 0;
+    bottom: 0;
+    width: 100%;
 }

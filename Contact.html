@@ -10,10 +10,11 @@
     <link href="https://fonts.googleapis.com/css2?family=Tiny5&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Chokokutai&family=Danfo&family=Tiny5&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Chokokutai&family=Danfo&family=Itim&family=Tiny5&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 </head>
 <body>
 <header>
-    <a class="logo">Adarsh. </a>
+    <a class="logo" href="home.html">Adarsh. </a>
     <nav>
         <a href="home.html">Home</a>
         <a href="skills.html">Skills</a>
@@ -23,5 +24,72 @@
         
     </nav>
 </header>
+    <div class="container">
+        <div class="form-container">
+            <h1>Contact Us</h1>
+            <form id="contactForm" onsubmit="submitForm(event)">
+                <label for="name">FULL NAME</label>
+                <input type="text" name="name" placeholder="Your Name" required>
+                <label for="email">EMAIL</label>
+                <input type="email" name="email" placeholder="Your Email" required>
+                <label for="message">FEEL FREE TO TALK:</label>
+                <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+                <button type="submit" >Submit</button>
+            </form>
+        </div>
+        <div class="divider">
+            <span>OR</span>
+        </div>
+        <div class="contact-container">
+            <h1>Contact Details</h1>
+            <p><strong>Email:</strong> adarshn678@gmail.com</p>
+            <p><strong>Phone:</strong> +91 1234567789</p>
+            <p><strong>Address:</strong> 123 Web Developer Lane,<br> Belagavi, Karnataka, India-590010</p>
+            <p><strong>Follow us on:</strong> 
+                <div class="social-icons">
+                    <a href="https://www.instagram.com" target="_blank">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                    <a href="https://www.facebook.com" target="_blank">
+                        <i class="fab fa-facebook"></i>
+                    </a>
+                    <a href="https://www.whatsapp.com" target="_blank">
+                        <i class="fab fa-whatsapp"></i>
+                    </a>
+                    <a href="https://www.twitter.com" target="_blank">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                </div>
+        </div>
+    </div>
+
+  
+    <div id="popup" class="P_U">
+        <div class="P_U-content">
+            <span class="close" onclick="closeP_U()">&times;</span>
+            <p>Form submitted successfully! You will receive a call within 24 hours.</p>
+        </div>
+    </div>
+
+    <script>
+        function submitForm(event) {
+            event.preventDefault(); 
+            document.getElementById('popup').style.display = 'block'; 
+            document.getElementById('contactForm').reset(); 
+        }
+
+        function closeP_U() {
+            document.getElementById('popup').style.display = 'none'; 
+        }
+
+        window.onclick = function(event) {
+            if (event.target == document.getElementById('popup')) {
+                document.getElementById('popup').style.display = 'none';
+            }
+        }
+    </script>
+<footer>
+    <p>&copy; 2024 All Rights Reserved - 2BU22CS005</p>
+</footer>
 </body>
 </html>
