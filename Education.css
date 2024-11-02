@@ -41,3 +41,63 @@ nav a{
 nav a:hover {
     text-decoration: underline;
 }
+section div{
+display:flex;
+flex-direction: column;
+gap: 3rem;
+}
+.school,.pu,.OQ {
+    border: 1px solid #fff;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+    width:auto;
+}
+div img {
+    display: block;
+    margin-right: auto;
+    height: 20rem;
+    width: 20rem;
+    border-radius: 50%;
+    background-color: #fff;
+    transition: 0.5s ease;
+}
+h2{
+    font-family: "Tiny5", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 30px;
+    color: #fff;    
+    text-align: center;
+}
+h1{
+    font-family: "Tiny5", sans-serif;
+    font-weight: 400;
+    font-size: 50px;
+    font-style: normal;
+    color: #fff;    
+    text-align: center;
+} 
+.school,.pu{
+    display: flex;
+    flex-direction: row-reverse;
+}
+.OQ{
+    display: flex;
+    flex-direction: row;
+}
+.content{
+    font-size: 14px;
+    font-weight: bold;
+    padding-right: 20px;
+    font-family: "Itim", cursive;
+    font-style: normal;
+    text-align: justify;
+    color: #fff;    
+    font-size: 20px;
+    line-height:30px;
+}
+img:hover{
+    transform: scale(1.1);
+    cursor: none;
+}
