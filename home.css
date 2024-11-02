@@ -77,3 +77,32 @@ footer{
     bottom: 0;
     width: 100%;
 }
+.hire_me{
+    font-family: "Itim", cursive;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    font-size: 15px;
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #1d025d;
+    transition: 0.5s ease;
+}
+.hire_me:hover{
+    transform: scale(1.1);
+    background-image: url(/hireme.gif);
+    background-size: cover;
+}
+.txt_colorchange{
+    background: linear-gradient(90deg, #ff5733, #ffbd33, #ffee33, #a8ff33, #33ff57, #33ffbd, #33eeff, #338aff, #6b33ff, #d633ff,#8b0000, #b22222, #ff4500, #ff8c00, #daa520, #556b2f, #2e8b57, #4682b4, #6a5acd, #4b0082);
+     -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: colorChange 8s infinite;
+    background-size: 200% 200%;
+}
+@keyframes colorChange {
+    0% { background-position: 0% 50%; }
+            50% { background-position: 100% 50%; }
+            100% { background-position: 0% 50%; }
+}
