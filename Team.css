@@ -103,7 +103,7 @@ span{
     font-weight: 700;
     font-style: normal;
 }
-footer{
+footer {
     color: #fff;
     font-family: "Itim", cursive;
     font-weight: 400;
@@ -111,6 +111,7 @@ footer{
     text-align: center;
     padding: 20px;
     background-color:transparent;
+    /* position: fixed; */
     left: 0;
     bottom: 0;
     width: 100%;
